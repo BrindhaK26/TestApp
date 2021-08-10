@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gaitanalyzer20">
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+
+    </queries>
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GaitAnalyzer20">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Registration" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Get_started" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Know_more" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Ailment" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Knee_ailment" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Lower_back_ailment" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Neck_ailment" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_knee1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_knee2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_knee3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_lb1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_lb2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_lb3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_lb4" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_lb5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_neck1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_neck2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_neck3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_neck4" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_neck5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Start_record_neck6" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Treatment_details" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Health_profile" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".View_knee_score" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".View_lb_score" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".View_neck_score" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".View_history" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Knee_history" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Lb_history" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Neck_history" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Health_progression" >
+        </activity>
+
+    </application>
+
+
+</manifest>

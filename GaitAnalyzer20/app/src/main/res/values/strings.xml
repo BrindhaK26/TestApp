@@ -1,0 +1,87 @@
+<resources>
+    <!-- activity_main.xml-->
+    <string name="app_name">Ortho</string>
+    <string name="description">Your personal gait assistant</string>
+    <string name="pg1_title">LOGIN</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="pg1_register_button">Register</string>
+    <string name="forgot_password"><a href="#">Forgot Password?</a></string>
+    <string name="pg1_footnote">*Gait Analyser <a href='#'>terms and conditions</a> and <a href='#'>privacy policy</a></string>
+    <!-- registration.xml-->
+    <string name="pg2_title">REGISTRATION</string>
+    <string name="verify_code">Enter the verification code: </string>
+    <string name="check_box">*I agree to the Gait Analyser <a href="#">terms and conditions</a> and <a href="#">privacy policy</a></string>
+    <string name="pg2_register_button">Register</string>
+    <!-- home.xml -->
+    <string name="welcome_msg">Welcome User</string>
+    <string name="Intro_msg1">On Ortho+, you can get reliable assessments and recommendations related to neck, lower back and knee problems.Please provide us with your basic information to have a more personalized experience.</string>
+    <string name = "Intro_msg2">Get started to know more about your muscle/bone health!</string>
+    <string name="start_button">Get Started</string>
+    <!-- Registration.java(Validation) -->
+    <string name="invalid_name">Please enter a valid Name</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_password">Please enter a valid password</string>
+    <string name="invalid_confirm_password">Password does not match</string>
+    <string name="invalid_phone">Please enter a valid Phone</string>
+    <string name="invalid_age">Age must be below 100.</string>
+    <!--Know_more.java(validation)-->
+    <string name="invalid_duration">The duration limit must be within 100 weeks</string>
+    <string name="invalid_occupation">Please enter a valid occupation</string>
+    <string name="invalid_gender">Please enter either male,female or other</string>
+    <!-- Knee_ailment.java , Lower_Back_ailment.java , Neck_ailment.java-->
+    <string name="invalid">Please enter a valid data</string>
+    <!-- know_more.xml-->
+    <string name="top_msg">Help us know you better!</string>
+    <string name="u_name">Enter your Username: </string>
+    <string name="name">Enter your name:</string>
+    <string name="gender">Gender(Female/Male/Other): </string>
+    <string name="dob">Age:  </string>
+    <string name="mobile">Contact: </string>
+    <string name="onset_ill">Duration of Illness(in weeks,say,1,2 etc):  </string>
+    <string name="job">Occupation: </string>
+    <string name="button_next">Next </string>
+    <!-- ailment.xml-->
+    <string name="question">Where is your ailment?</string>
+    <string name="knee">Knee</string>
+    <string name="neck">Neck</string>
+    <string name="lower_back">Lower Back</string>
+    <string name="old">Old User</string>
+    <string name="New">New User</string>
+    <!-- knee_ailment.xml-->
+    <string name="doctor">Have you seen a doctor before?(Yes/No): </string>
+    <string name="knee_topic">Knee Related Ailments</string>
+    <string name="knee_q1">Observed Side(Left/right/Both): </string>
+    <string name="knee_q2">Have you experienced injury(Yes/No): </string>
+    <string name="knee_q3">Severity on a scale of 0-3(0 being most severe): </string>
+    <string name="knee_q4">Are you facing difficulty in walking?(Yes/No): </string>
+    <string name="knee_q5">Do you use a walking aid?(Yes/no): </string>
+    <!-- lower_back_ailment.xml-->
+    <string name="lb_topic">Lower Back Related Ailments</string>
+    <string name="lb_q1">Have you experienced injury(Yes/No):</string>
+    <string name="lb_q2"> Does the pain radiate towards your limbs?(Yes/No) : </string>
+    <string name="lb_q3">Severity on a scale of 0-3(0 being most severe): </string>
+    <string name="lb_q4">Are you facing difficulty in walking?(Yes/No): </string>
+    <string name="lb_q5">Do you use a walking aid?(Yes/no): </string>
+    <!-- neck_ailment.xml-->
+    <string name="neck_topic">Neck Related Ailments</string>
+    <string name="neck_q3">Does the pain radiate towards your arms/lower back?(Yes/No) : </string>
+    <string name="neck_q1">Have you experienced injury(Yes/No):</string>
+    <string name="neck_q2">Severity on a scale of 0-3(0 being most severe): </string>
+    <string name="neck_q4">Are you experiencing stiff neck?(Yes/No): </string>
+    <string name="neck_q5">Have headache,numbness or tingling?(Yes/No): </string>
+    <!-- start_recording.xml-->
+    <string name="rec_button">Click the button to Start Recording</string>
+    <string name="low_msg">NOTE:Follow the instructions during the recording.</string>
+    <!-- video_capture.xml-->
+    <!-- health_profile.xml-->
+    <!--treatment_details.xml-->
+    <string name="profile">Profile</string>
+    <string name="treatment_duration">How long have been taking the treatment?(no.of weeks)</string>
+    <string name="diagnosis">What is the diagnosis?</string>
+    <string name="surgery">Have you had a surgical procedure?(Yes/No)</string>
+    <string name="precautions">Are you taking necessary precautions?(Yes/No)</string>
+    <string name="physio">Are you undergoing physiotheraphy?(Yes/No)</string>
+    <string name="physio_details">If yes, enter the treatment details</string>
+    <!-- -->
+
+</resources>

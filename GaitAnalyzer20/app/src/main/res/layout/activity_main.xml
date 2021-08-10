@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbarSize="15sp"
+    android:scrollbarDefaultDelayBeforeFade="5"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+
+    tools:context=".Lower_back_ailment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E2DEDB"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#E2DEDB"
+        android:layout_gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#E2DEDB">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30dp"
+                    android:text="@string/app_name"
+                    android:textColor="#E0780F"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_baseline_add_24"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Your personal gait assistant"/>
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:ems="10"
+                android:layout_marginTop="130dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ip_style"
+                android:inputType="textPersonName"
+                android:hint="Email"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="45dp"
+                app:boxCollapsedPaddingTop="-10dp"
+                app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Password_pg1"
+                android:layout_width="300dp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_corner_toggle"
+                android:ems="10"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:hint="Password"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:textAlignment="center" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2"
+                android:layout_width="300dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:text="@string/sign_in_button"
+                android:background="@drawable/button_style"
+                />
+
+            <TextView
+                android:id="@+id/forgot_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#0505F6"
+                android:textAlignment="center"
+                android:text="@string/forgot_password" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:background="@drawable/button_style"
+                android:text="@string/pg1_register_button" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="160dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

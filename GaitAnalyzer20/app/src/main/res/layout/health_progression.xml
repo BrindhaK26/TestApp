@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E2DEDB"
+        tools:context=".View_knee_score">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="@string/app_name"
+
+                android:id="@+id/textView2"
+                android:textColor="#E0780F"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_baseline_add_24"/>
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Your personal gait assistant"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gradient_bg">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="330dp"
+                android:textSize="22dp"
+                android:gravity="fill_vertical"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:text="@string/welcome_msg" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+        </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Overall Progress"
+    android:textColor="#000"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:textSize="24dp"
+    android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:padding="20dp"
+        app:srcCompat="@drawable/plot" />
+
+
+    </LinearLayout>
